@@ -1,0 +1,10 @@
+default_deny: true
+allow:
+  - read_file
+  - list_dir
+  - run_tests
+deny:
+  - network_raw
+  - write_secrets
+  - force_push
+audit: true
